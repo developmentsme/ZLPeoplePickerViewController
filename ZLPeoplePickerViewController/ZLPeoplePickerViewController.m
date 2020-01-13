@@ -7,7 +7,6 @@
 //
 
 #import "ZLPeoplePickerViewController.h"
-#import "ZLResultsTableViewController.h"
 
 #import <AddressBook/AddressBook.h>
 #import <AddressBookUI/AddressBookUI.h>
