@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <AddressBook/AddressBook.h>
 #import "ZLBaseTableViewController.h"
+#import "ZLResultsTableViewController.h"
 
 @class ZLPeoplePickerViewController;
 
