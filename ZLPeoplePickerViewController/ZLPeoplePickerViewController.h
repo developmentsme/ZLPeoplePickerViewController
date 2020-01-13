@@ -49,6 +49,9 @@
 @property (nonatomic) ZLNumSelection numberOfSelectedPeople;
 @property (nonatomic, assign) BOOL allowAddPeople;
 
+@property (nonatomic, strong) UISearchController *searchController;
+@property (nonatomic, strong) ZLResultsTableViewController *resultsTableViewController;
+
 + (void)initializeAddressBook;
 //- (id)init __attribute__((unavailable("-init is not allowed, use
 //-initWithType: instead")));

@@ -19,8 +19,6 @@
     ABPeoplePickerNavigationControllerDelegate, ABPersonViewControllerDelegate,
     ABNewPersonViewControllerDelegate, ABUnknownPersonViewControllerDelegate,
     UISearchBarDelegate, UISearchControllerDelegate, UISearchResultsUpdating>
-@property (nonatomic, strong) UISearchController *searchController;
-@property (nonatomic, strong) ZLResultsTableViewController *resultsTableViewController;
 
 // for state restoration
 @property BOOL searchControllerWasActive;
