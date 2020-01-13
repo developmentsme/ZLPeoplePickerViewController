@@ -49,6 +49,7 @@
 @property (weak, nonatomic, nullable) id<ZLPeoplePickerViewControllerDelegate> delegate;
 @property (nonatomic) ZLNumSelection numberOfSelectedPeople;
 @property (nonatomic, assign) BOOL allowAddPeople;
+@property (nonatomic, assign) BOOL allowContactSelectionHandling;
 
 @property (nonatomic, strong) UISearchController *searchController;
 @property (nonatomic, strong) ZLResultsTableViewController *resultsTableViewController;
@@ -60,4 +61,6 @@
                         "-initWithStyle is not allowed, use -init instead")));
 + (nonnull instancetype)presentPeoplePickerViewControllerForParentViewController:
         (nullable __kindof id<ZLPeoplePickerViewControllerDelegate>)parentViewController;
+- (void)handleTableViewSelection:(UITableView *_Nonnull)tableView forIndexPath:(NSIndexPath  *_Nonnull)indexPath;
+
 @end
