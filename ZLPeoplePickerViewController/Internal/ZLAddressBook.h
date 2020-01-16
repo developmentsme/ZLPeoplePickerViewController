@@ -12,6 +12,7 @@ extern NSString *const ZLAddressBookDidChangeNotification;
 
 @interface ZLAddressBook : NSObject
 @property (strong, nonatomic, readonly) NSArray *contacts;
+@property (strong, nonatomic) APAddressBook *addressBook;
 
 + (instancetype)sharedInstance;
 - (void)loadContacts:(void (^)(BOOL succeeded, NSError *error))completionBlock;

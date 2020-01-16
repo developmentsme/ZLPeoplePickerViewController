@@ -14,7 +14,6 @@ NSString *const ZLAddressBookDidChangeNotification =
     @"ZLAddressBookDidChangeNotification";
 
 @interface ZLAddressBook ()
-@property (strong, nonatomic) APAddressBook *addressBook;
 @property (strong, nonatomic, readwrite) NSArray *contacts;
 @end
 @implementation ZLAddressBook
