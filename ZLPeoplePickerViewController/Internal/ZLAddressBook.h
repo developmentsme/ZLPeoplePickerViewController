@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AddressBook/AddressBook.h>
-#import "APTypes.h"
+#import "APAddressBook/APAddressBook.h"
 
 extern NSString *const ZLAddressBookDidChangeNotification;
 
